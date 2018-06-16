@@ -7,9 +7,11 @@ str(crime)
 fit <- lm (C ~ HS, data = crime)
 summary(fit)
 
+## /score -0.5 answer not specific enough
+
 ## There is positiv elasticity for HS that mean that when we observe promotion at HS
 ##there is also promotion at Crime rate, but that doesn't mean that they are related 
-
+## ????
 ## b)
 
 plot(crime[2:5])
@@ -24,10 +26,10 @@ summary(fit)
 ## can be that the people who living in the urban environment are more likely to study in HS than the others.
 
 ## d)
-
+## /score -1 not specific enough
 ##  Betweeen the education and crime rates is no direct connection, cuz we can't say that the reduce of 
 ## education spending can cause the low levels of crime or the opposite. Also there are many factors 
-##that influence the rate
+##that influence the rate 
 
 ## e)
 
@@ -35,5 +37,4 @@ fit1 <- lm( C ~ HS + U + I, data = crime)
 summary(fit1)
 
 
-
-
+## /score -5

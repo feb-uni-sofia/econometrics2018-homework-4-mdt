@@ -33,15 +33,16 @@ summary(fit)
 
 
 ## e)
-
+## /score -2
 
 
 ## f)
+## /score -2
 ### H0 : The average house-work hours for women are less than or equal to the average house-work hours for men 
 ### H1 : The average house-work hours for women are greater than the average house-work hours for men
 
 ## g)
-
+## /score -2
 T <- (-14.4555 - 32.8138) /0.3186
 pt ( -T , df = 2)
 
@@ -50,8 +51,8 @@ pt ( -T , df = 2)
 ##we cannot reject H0: µf ≤ µm at a 1% error probability, because the test-statistic is less than the crittical value.
 
 ## i)
-
+## /score -2
 ## j)
-
+## /score -2
 fit1 <- lm( hours ~ female + male , data=houseWork) 
 summary(fit1)
